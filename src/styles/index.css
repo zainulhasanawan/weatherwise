@@ -215,7 +215,7 @@ input:focus {
 /**************************/
 @media (max-width: 520px) {
   body {
-    height: 95vh;
+    height: 92vh;
   }
 
   .app {
@@ -230,11 +230,12 @@ input:focus {
   }
 
   h2 {
-    font-size: 2rem;
+    font-size: 1.9rem;
   }
 
   input {
     width: 20rem;
+    padding: 1rem 2rem;
     font-size: 1.6rem;
   }
 
