@@ -214,11 +214,14 @@ input:focus {
 
 /**************************/
 @media (max-width: 520px) {
+  body {
+    height: 95vh;
+  }
+
   .app {
     width: 33rem;
     gap: 2.5rem;
     padding: 3rem 0;
-    height: 95vh;
   }
 
   h1 {
@@ -227,7 +230,7 @@ input:focus {
   }
 
   h2 {
-    font-size: 1.9rem;
+    font-size: 2rem;
   }
 
   input {
@@ -242,5 +245,9 @@ input:focus {
   .weather {
     width: 295px;
     gap: 1.4rem;
+  }
+
+  .day {
+    font-size: 1.5rem;
   }
 }
